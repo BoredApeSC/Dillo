@@ -1,0 +1,22 @@
+{
+   "name":"Dillo ME Tool",
+   "description":"Adds rank details and ribbons to Magic Eden.",
+   "version":"1.0",
+   "manifest_version": 3,
+   "author":"Exxempt",
+   "icons":{
+      "16":"images/icon16.png",
+      "32":"images/icon32.png",
+      "96":"images/icon96.png"
+   },
+   "content_scripts":[
+      {
+         "matches":[
+            "https://magiceden.io/marketplace/angry_armadillos"
+         ],
+         "js":[
+            "js/content_script.js"
+         ]
+      }
+   ]
+}
